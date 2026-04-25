@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "5 признаков того, что вам нужен персональный стилист",
+    category: "Советы",
+    image: "https://cdn.poehali.dev/projects/1a7a5b03-978f-41cd-82c8-64d31f1fcdb9/files/bd3ea202-89bb-42f0-a47a-2cc2bbdedd82.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Как создать капсульный гардероб с нуля",
+    category: "Гардероб",
+    image: "https://cdn.poehali.dev/projects/1a7a5b03-978f-41cd-82c8-64d31f1fcdb9/files/7784e10c-ffb0-4373-9229-11d8265dc2bd.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Тренды стиля 2025: что носить и как адаптировать под себя",
+    category: "Тренды",
+    image: "https://cdn.poehali.dev/projects/1a7a5b03-978f-41cd-82c8-64d31f1fcdb9/files/2c085a7f-0de3-407d-86f9-f10a2ae398bb.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Шопинг без сожалений: секреты осознанного выбора одежды",
+    category: "Шопинг",
+    image: "https://cdn.poehali.dev/projects/1a7a5b03-978f-41cd-82c8-64d31f1fcdb9/files/7784e10c-ffb0-4373-9229-11d8265dc2bd.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Блог о стиле
         </motion.p>
 
         <div className="divide-y divide-border">

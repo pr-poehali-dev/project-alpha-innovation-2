@@ -86,7 +86,7 @@ export function FeaturesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Возможности
+          Как я работаю
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -105,8 +105,8 @@ export function FeaturesSection() {
               <TypeTester />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Типографика</h3>
-              <p className="text-muted-foreground text-sm mt-1">Красивые шрифты, которые идеально масштабируются.</p>
+              <h3 className="font-serif text-xl text-foreground">Разбор гардероба</h3>
+              <p className="text-muted-foreground text-sm mt-1">Анализирую то, что есть, и убираю лишнее — остаётся только то, что работает.</p>
             </div>
           </motion.div>
 
@@ -125,8 +125,8 @@ export function FeaturesSection() {
               <LayoutAnimation />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Макеты</h3>
-              <p className="text-muted-foreground text-sm mt-1">Гибкие сетки, которые адаптируются под контент.</p>
+              <h3 className="font-serif text-xl text-foreground">Создание образов</h3>
+              <p className="text-muted-foreground text-sm mt-1">Собираю луки под любой случай: работа, выход, путешествие, особый повод.</p>
             </div>
           </motion.div>
 
@@ -145,8 +145,8 @@ export function FeaturesSection() {
               <SpeedIndicator />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Скорость</h3>
-              <p className="text-muted-foreground text-sm mt-1">Молниеносная загрузка страниц для ваших гостей.</p>
+              <h3 className="font-serif text-xl text-foreground">Шопинг-сопровождение</h3>
+              <p className="text-muted-foreground text-sm mt-1">Хожу с вами на шопинг или подбираю онлайн — без лишних трат и сомнений.</p>
             </div>
           </motion.div>
         </div>
